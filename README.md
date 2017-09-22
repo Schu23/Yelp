@@ -7,3 +7,11 @@ In this paper the authors discuss the black market business of humans creating "
 
 ## What did I do, and why?
 When I read this paper my immediate reaction was not only being impressed by the power of generative RNN models when applied to a specific short domain (restuarant reviews), it was also excitement that I could use something like this and give my favorite coffee shops 5 stars without taxing my brain!
+
+
+### Sources that were useful and I borrowed from liberally:
+(http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
+(https://github.com/mineshmathew/char_rnn_karpathy_keras)
+(https://machinelearningmastery.com/text-generation-lstm-recurrent-neural-networks-python-keras/)
+(http://www.nltk.org/book/)
+(https://github.com/fchollet/keras/blob/master/examples/lstm_text_generation.py)
