@@ -11,6 +11,13 @@ When I read this paper my immediate reaction was not only being impressed by the
 My biggest interest from the paper was in creating a model that could generate human-like positive reviews (using character-level Recurrent Neural Networks), and then secondly implementing a version of the algorithm that they proposed to customize those reviews towards any restaurant.  Given my interpretation of this model as a net-positive to consumers and businesses I also built a new feature not in the paper that allows people to personally customize their reviews by inputting foods/items that they enjoyed from the restaurant, and letting the program replace the generic created food words in the review with these words.
 
 ## Quick Start
+To use the pretrained models:
+
+To train from scratch:
+Download the Yelp academic dataset in JSON:
+(https://www.yelp.com/dataset/challenge)
+
+Use the json_converter.py script on the business and review datasets to convert them into csv files.  This script requires Python version 2 and simple json (I took this from another repo and made a few quick attempts to get it working with Python 3, but it was becoming a bottleneck for me and it works fine if you use Python 2 + pip2 install simplejson).
 
 
 ### Some of the sources that were useful and I borrowed from liberally:
