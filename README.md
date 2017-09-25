@@ -14,10 +14,12 @@ My biggest interest from the paper was in creating a model that could generate h
 To use the pretrained models:
 
 To train from scratch:
-Download the Yelp academic dataset in JSON:
+1.  Download the Yelp academic dataset in JSON:
 (https://www.yelp.com/dataset/challenge)
 
-Use the json_converter.py script on the business and review datasets to convert them into csv files.  This script requires Python version 2 and simple json (I took this from another repo and made a few quick attempts to get it working with Python 3, but it was becoming a bottleneck for me and it works fine if you use Python 2 + pip2 install simplejson).
+2.  Use the json_converter.py script on the business and review datasets to convert them into csv files.  This script requires Python version 2 and simple json (I took this from another repo and made a few quick attempts to get it working with Python 3, but it was becoming a bottleneck for me and it works fine if you use Python 2 + pip2 install simplejson)
+
+3.  Clean the dataset.  Open the notebook Yelp and Business Review Data
 
 
 ### Some of the sources that were useful and I borrowed from liberally:
