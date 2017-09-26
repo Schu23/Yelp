@@ -14,6 +14,8 @@ My biggest interest from the paper was in creating a model that could generate h
 To use the pretrained models:
 
 To train from scratch:
+(I'm including everything as python scripts that you can just run, but also jupyter notebooks for people who prefer that format)
+
 1.  Download the Yelp academic dataset in JSON:
 (https://www.yelp.com/dataset/challenge)
 
