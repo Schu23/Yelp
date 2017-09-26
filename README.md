@@ -21,7 +21,7 @@ To train from scratch:
 
 3.  Clean the dataset.  Open the notebook Yelp_and_Business_Review_Data and run all of the cells.  Feel free to see what's going here.  This will create a new csv of just restaurant reviews, as well as a text file with all of the review data in txt form.
 
-4.  
+4.  Train the data by running the cells in Train_Char_RNN.  THIS TAKES A LONG TIME!  I wouldn't attempt this without a GPU.  With a standard GPU I was able to get through one epoch of the dataset in a little over 24 hours.  I ran mine in the cloud for days/week at a time.  You'll get some results after a few hours though.  Feel free to stop the training process, load your best weights files, and see what you can print out!  Also alternatively I recommend shrinking the dataset to 500k-1mm characters and training on that first to make sure it's working for you.
 
 
 ### Some of the sources that were useful and I borrowed from liberally:
