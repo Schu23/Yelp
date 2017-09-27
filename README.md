@@ -25,6 +25,13 @@ To train from scratch:
 
 4.  Train the data by running the cells in Train_Char_RNN.  THIS TAKES A LONG TIME!  I wouldn't attempt this without a GPU.  With a standard GPU I was able to get through one epoch of the dataset in a little over 24 hours.  I ran mine in the cloud for days/week at a time.  You'll get some results after a few hours though.  Feel free to stop the training process, load your best weights files, and see what you can print out!  Also alternatively I recommend shrinking the dataset to 500k-1mm characters and training on that first to make sure it's working for you.
 
+5.  Once you have some saved weights files you're ready to start producing reviews!  You can use the Write_Custom_Review Notebook and experiment, or use the write_review.py file and run things from the command line.  In either case you'll just need to modify the part in the Model section that says: model.load_weights("Sep-26-all-00-0.7359.hdf5") and change the "Sep-26-all-00-0.7359.hdf5" to whatever your weight file is called.
+
+If you're using the command line:
+a.  python3
+b.  from write_review import *
+c.  NOW: 
+
 
 ### Some of the sources that were useful and I borrowed from liberally:
 (http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
