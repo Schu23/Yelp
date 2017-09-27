@@ -6,7 +6,8 @@ import random
 import sys
 import pandas as pd
 
-text = open('short_reviews_shuffle.txt').read()
+#text = open('short_reviews_shuffle.txt').read()
+text=open('testing_text.txt').read()
 
 def sample(preds, temperature=1.0):
     preds = np.asarray(preds).astype('float64')
@@ -105,7 +106,7 @@ def user_custom(foods):
     print("")
     print(new[:ending])
 
-#PRINT database CUSTOMIZED REVIEWS
+#PRINT dataframe CUSTOMIZED REVIEWS
 def df_custom(restaurant):
     #restaurant is a string exactly the same as in the dataframe
     df=pd.read_csv('all_five_star_restaurants.csv')
