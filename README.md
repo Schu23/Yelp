@@ -13,7 +13,7 @@ My biggest interest from the paper was in creating a model that could generate h
 ## Quick Start
 
 ### Setup
-This requires Python 3.5, ideally with anaconda
+This requires Python 3.5 ideally with anaconda
 # clone repo
 git clone https://github.com/ajmanser/Yelp.git && cd Yelp
 
