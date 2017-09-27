@@ -15,7 +15,8 @@ My biggest interest from the paper was in creating a model that could generate h
 ### Setup
 This requires Python 3.5, ideally with anaconda
 # clone repo
-git clone git@github.com:ajmanser/Yelp.git && cd Yelp
+git clone https://github.com/ajmanser/Yelp.git && cd Yelp
+
 pip install -r requirements.txt
 
 ### Use the Pre-trained Models:
