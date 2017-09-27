@@ -1,5 +1,5 @@
+numpy
 keras
 tensorflow
-numpy
 nltk
 pandas
