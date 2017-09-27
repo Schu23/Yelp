@@ -33,7 +33,7 @@ If you're using the command line:
 1.  Download the Yelp academic dataset in JSON:
 (https://www.yelp.com/dataset/challenge)
 
-2.  Use the json_converter.py script on the business and review datasets to convert them into csv files.  This script requires Python version 2 and simple json (I took this from another repo and made a few quick attempts to get it working with Python 3, but it was becoming a bottleneck for me and it works fine if you use Python 2 + pip2 install simplejson)
+2.  Use the json_converter.py script on the business and review datasets to convert them into csv files.  This script requires Python version 2 and simple json (I took this from another repo and made a few quick attempts to get it working with Python 3, but it was becoming a bottleneck for me and it works fine if you use Python 2 + pip2 install simplejson).
 
 3.  Clean the dataset.  Open the notebook Yelp_and_Business_Review_Data and run all of the cells.  Feel free to see what's going here.  This will create a new csv of just restaurant reviews, as well as a text file with all of the review data in txt form.
 
