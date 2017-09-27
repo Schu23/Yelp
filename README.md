@@ -13,6 +13,11 @@ My biggest interest from the paper was in creating a model that could generate h
 ## Quick Start
 ### Use the Pre-trained Models:
 1.  Download this weights file and optionally the second one if you want to try the experimental "many-to-many" model in jupyter.
+(https://s3.amazonaws.com/yelp-weights-files/Sep-26-all-00-0.7280.hdf5)
+
+OPTIONAL JUPYTER NOTEBOOK ONLY EXPERIMENTAL MODEL/ARCHITECTURE
+(https://s3.amazonaws.com/yelp-weights-files/More-Dropout-all-Karpathy-00-0.6968.hdf5)
+
 
 2.  You're ready to start producing reviews!  You can use the Write_Custom_Review Notebook and experiment, or use the write_review.py file and run things from the command line.  The only function that won't work is the df_custom(restaurant) unless you create your own dataframe of restuarant names with steps 1-3 from training from scratch notes. 
 
