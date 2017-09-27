@@ -28,9 +28,9 @@ To train from scratch:
 5.  Once you have some saved weights files you're ready to start producing reviews!  You can use the Write_Custom_Review Notebook and experiment, or use the write_review.py file and run things from the command line.  In either case you'll just need to modify the part in the Model section that says: model.load_weights("Sep-26-all-00-0.7359.hdf5") and change the "Sep-26-all-00-0.7359.hdf5" to whatever your weight file is called.
 
 If you're using the command line:
-a.  python3
-b.  from write_review import *
-c.  NOW: 
+..*  python3
+..*  from write_review import *
+..*  random_reviews()  OR user_custom(foods) OR df_custom(restaurant) 
 
 
 ### Some of the sources that were useful and I borrowed from liberally:
