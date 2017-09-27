@@ -27,7 +27,7 @@ If you're using the command line:
 *  random_reviews()  OR user_custom(foods)
 
 
-### To training from scratch:
+### Training from scratch:
 (I'm including everything as python scripts that you can just run, but also jupyter notebooks for people who prefer that format)
 
 1.  Download the Yelp academic dataset in JSON:
