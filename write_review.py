@@ -36,7 +36,7 @@ model = keras.models.Sequential()
 model.add(layers.LSTM(1024, input_shape=(maxlen, len(chars)),return_sequences=True))
 model.add(layers.LSTM(1024, input_shape=(maxlen, len(chars))))
 model.add(layers.Dense(len(chars), activation='softmax'))
-model.load_weights("Sep-26-all-00-0.7359.hdf5")
+model.load_weights("Sep-26-all-00-0.7280.hdf5")
 
 optimizer = keras.optimizers.Adam(lr=0.0002)
 model.compile(loss='categorical_crossentropy', optimizer=optimizer)
