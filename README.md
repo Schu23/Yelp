@@ -11,6 +11,13 @@ When I read this paper my immediate reaction was not only being impressed by the
 My biggest interest from the paper was in creating a model that could generate human-like positive reviews (using character-level Recurrent Neural Networks), and then secondly implementing a version of the algorithm that they proposed to customize those reviews towards any restaurant.  Given my interpretation of this model as a net-positive to consumers and businesses I also built a new feature not in the paper that allows people to personally customize their reviews by inputting foods/items that they enjoyed from the restaurant, and letting the program replace the generic created food words in the review with these words.
 
 ## Quick Start
+
+### Setup
+This requires Python 3.5, ideally with anaconda
+# clone repo
+git clone git@github.com:ajmanser/Yelp.git && cd Yelp
+pip install -r requirements.txt
+
 ### Use the Pre-trained Models:
 1.  Download this weights file and optionally the second one if you want to try the experimental "many-to-many" model in jupyter.
 (https://s3.amazonaws.com/yelp-weights-files/Sep-26-all-00-0.7280.hdf5)
