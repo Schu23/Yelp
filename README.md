@@ -10,6 +10,15 @@ When I read this paper my immediate reaction was not only being impressed by the
 
 My biggest interest from the paper was in creating a model that could generate human-like positive reviews (using character-level Recurrent Neural Networks), and then secondly implementing a version of the algorithm that they proposed to customize those reviews towards any restaurant.  Given my interpretation of this model as a net-positive to consumers and businesses I also built a new feature not in the paper that allows people to personally customize their reviews by inputting foods/items that they enjoyed from the restaurant, and letting the program replace the generic created food words in the review with these words.
 
+## TL;DR show me some reviews:
+`random_reviews()`
+"<SOR>This place is amazing! The food is always amazing, especially the seared ahi tuna, salmon melts in your mouth. Great service. Prices are the same as what I had there.<EOR>"
+"<SOR>Thank you to! You have to try the Toro Flavor!<EOR>"
+"<SOR>I tried this place on here on a recent trip to Vegas. We ordered the spicy chicken lasagna and it was wonderful.  I recommend this place and go to their new dinner or life.<EOR>"
+
+`user_custom('pizza,pasta,breadsticks,salad')`
+
+
 ## Quick Start
 
 ### Setup
