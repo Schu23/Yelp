@@ -1,6 +1,6 @@
 # Generating Custom Yelp Reviews
-This project is my version of reproducing the work from an amazing recent research paper submitted August 27, 2017 by a team of reserachers from UC Santa Barbara and the University of Chicago:
-["Automated Crowdturfing Attacks and Defenses in Online Review Systems"](https://arxiv.org/abs/1708.08151)
+This project is my version of reproducing the work from an amazing recent research paper submitted August 27, 2017 by a team of reserachers from the University of Chicago:
+["Automated Crowdturfing Attacks and Defenses in Online Review Systems"](https://arxiv.org/abs/1708.08151) by Yuanshun Yao, Bimal Viswanath, Jenna Cryan, Haitao Zheng, Ben Y. Zhao.
 
 ## What are the quick details of the paper?
 In this paper the authors discuss the black market business of humans creating "fake" reviews on Amazon, Yelp, etc.  The researchers showed that they could use Deep Learning to create human quality restaurant reviews (both in terms of looking realistic as well as being rated as helpful), customize them, beat a standard baseline of fake review detection using regular Machine Learning methods, but also create a Recurrent Neural Network that could in fact detect these computer generated reviews with high accuracy. 
