@@ -17,6 +17,9 @@ This requires Python 3.5 ideally with anaconda
 # clone repo
 git clone https://github.com/ajmanser/Yelp.git && cd Yelp
 
+#### download pretrained model
+curl -O https://s3.amazonaws.com/yelp-weights-files/Sep-26-all-00-0.7280.hdf5
+
 pip install -r requirements.txt
 
 ### Use the Pre-trained Models:
