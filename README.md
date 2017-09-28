@@ -13,7 +13,7 @@ My biggest interest from the paper was in creating a model that could generate h
 ## How to use the program:
 This project is based on the premise that it's much easier to edit than to create from scratch.  All reviews are trained on 5-star positive reviews, and thus generate positive sentiment.  Either generate random reviews, or custom ones based on instructions below.  The program will produce several so you can pick the one that seems most relevant, copy/paste, and modify it as you see fit.  Often with just a small tweak you can quickly produce a great review that both helps business owners and gives you good karma!
 
-## TL;DR show me some reviews!:
+## TL;DR show me some (unedited generated) reviews!
 `random_reviews()`
 
 "This place is amazing! The food is always amazing, especially the seared ahi tuna, salmon melts in your mouth. Great service. Prices are the same as what I had there."
