@@ -3,3 +3,4 @@ keras
 tensorflow
 nltk
 pandas
+h5py
