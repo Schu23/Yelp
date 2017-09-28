@@ -21,6 +21,12 @@ My biggest interest from the paper was in creating a model that could generate h
 
 `user_custom('pizza,pasta,breadsticks,salad')`
 
+Coming up with two ideas for you...
+
+A dollar that is over 10 for 2 pounds for 3 which is amazing. Always a good time at a second drive. This will be our go to salad for breadsticks on the salad 
+
+pasta breadsticks with a great atmosphere. The pasta and salad is really good and the pizza Comparable to the greatest ambiance and fun decor. 
+
 
 ## Quick Start
 
