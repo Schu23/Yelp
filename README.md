@@ -37,6 +37,7 @@ If you're using the command line:
 * `python3`
 * `from write_review import *`
 * `random_reviews()`
+
 OR 
 `user_custom(foods)`
 * if you use user_custom input a bunch of foods separated by string, ie; 'taco,burrito,tostada'
