@@ -23,8 +23,9 @@ curl -O https://s3.amazonaws.com/yelp-weights-files/Sep-26-all-00-0.7280.hdf5
 pip install -r requirements.txt
 
 ### Use the Pre-trained Models:
-1.  Download this weights file and optionally the second one if you want to try the experimental "many-to-many" model in jupyter.
-(https://s3.amazonaws.com/yelp-weights-files/Sep-26-all-00-0.7280.hdf5)
+1.  You should have downloaded the weights file with the curl command above, otherwise just click and donwload it, moving it to the cloned github repo.  
+
+I'm also including a very different model if you want to try the experimental "many-to-many" version in jupyter.
 
 OPTIONAL JUPYTER NOTEBOOK ONLY EXPERIMENTAL MODEL/ARCHITECTURE
 (https://s3.amazonaws.com/yelp-weights-files/More-Dropout-all-Karpathy-00-0.6968.hdf5)
@@ -36,6 +37,7 @@ If you're using the command line:
 *  python3
 *  from write_review import *
 *  random_reviews()  OR user_custom(foods)
+* if you use user_custom input a bunch of foods separated by string, ie; 'taco,burrito,tostada'
 
 
 ### Training from scratch:
