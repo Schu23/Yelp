@@ -12,6 +12,7 @@ My biggest interest from the paper was in creating a model that could generate h
 
 ## TL;DR show me some reviews:
 `random_reviews()`
+
 "This place is amazing! The food is always amazing, especially the seared ahi tuna, salmon melts in your mouth. Great service. Prices are the same as what I had there."
 
 "Thank you to! You have to try the Toro Flavor!"
