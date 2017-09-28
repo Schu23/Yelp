@@ -31,7 +31,7 @@ OPTIONAL JUPYTER NOTEBOOK ONLY EXPERIMENTAL MODEL/ARCHITECTURE
 (https://s3.amazonaws.com/yelp-weights-files/More-Dropout-all-Karpathy-00-0.6968.hdf5)
 
 
-2.  You're ready to start producing reviews!  You can use the Write_Custom_Review Notebook and experiment, or use the write_review.py file and run things from the command line.  The only function that won't work is the df_custom(restaurant) unless you create your own dataframe of restuarant names with steps 1-3 from training from scratch notes. 
+2.  You're ready to start producing reviews!  You can use the Write_Custom_Review Notebook and experiment, or use the write_review.py file and run things from the command line.  The only function that won't work is the df_custom(restaurant) unless you create your own dataframe of restuarant names with steps 1-3 from training from scratch notes OR create your own dataframe resulting in the same format. 
 
 If you're using the command line:
 * `python3`
