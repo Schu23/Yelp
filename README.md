@@ -1,4 +1,4 @@
-# Generating Custom Yelp Reviews
+# Generating Custom Yelp 5-star Restaurant Reviews
 This project is my version of reproducing the work from an amazing recent research paper submitted August 27, 2017 by a team of reserachers from the University of Chicago:
 ["Automated Crowdturfing Attacks and Defenses in Online Review Systems"](https://arxiv.org/abs/1708.08151) by Yuanshun Yao, Bimal Viswanath, Jenna Cryan, Haitao Zheng, Ben Y. Zhao.
 
