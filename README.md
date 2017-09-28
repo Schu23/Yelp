@@ -15,12 +15,12 @@ My biggest interest from the paper was in creating a model that could generate h
 ### Setup
 This requires Python 3.5 ideally with anaconda
 # clone repo
-git clone https://github.com/ajmanser/Yelp.git && cd Yelp
+`git clone https://github.com/ajmanser/Yelp.git && cd Yelp`
 
 #### download pretrained model
-curl -O https://s3.amazonaws.com/yelp-weights-files/Sep-26-all-00-0.7280.hdf5
+`curl -O https://s3.amazonaws.com/yelp-weights-files/Sep-26-all-00-0.7280.hdf5`
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 ### Use the Pre-trained Models:
 1.  You should have downloaded the weights file with the curl command above, otherwise just click and donwload it, moving it to the cloned github repo.  
